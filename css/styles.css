@@ -329,14 +329,12 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  margin-bottom: 16px;
 }
 .footer-text {
   color: var(--whitish);
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
-  padding-top: 16px;
 }
 .footer-web {
   color: var(--blue);
@@ -347,4 +345,5 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   display: inline-block;
+  margin-bottom: 16px;
 }
