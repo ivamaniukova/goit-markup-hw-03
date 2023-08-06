@@ -326,6 +326,17 @@ img {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+.footer {
+  color: #f4f4fd;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 16px;
+}
 .footer-text {
   color: var(--whitish);
   line-height: 1.5;
@@ -342,10 +353,5 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   display: inline-block;
-  margin-bottom: 16px;
-}
-.ftr-container {
-  display: flex;
-  flex-direction: column;
-  gap: 17.5px;
+  margin-bottom: 17.5px;
 }
