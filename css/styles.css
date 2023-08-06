@@ -129,11 +129,9 @@ img {
 .hero-container {
   display: flex;
   flex-direction: column;
-  padding-left: 188px;
   align-items: center;
   justify-content: center;
   gap: 48px;
-  margin-left: 0;
 }
 .hero-title {
   color: var(--light);
@@ -250,8 +248,6 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
-  width: 264px;
 }
 .filter-text {
   color: #434455;
@@ -300,8 +296,10 @@ img {
   letter-spacing: 0.04em;
   border: 1px solid #e7e9fc;
   width: calc((100% - 48px) / 3);
+  object-fit: contain;
 }
 .filter-item-wrapper {
+  
   gap: 32px;
 }
 .card-set {
@@ -319,7 +317,6 @@ img {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  margin-bottom: 120px;
 }
 .member-card {
   padding: 32px 0;
@@ -354,7 +351,10 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
   display: inline-block;
-  margin-bottom: 16px;
+}
+.ftr-container {
+  display: flex;
+  flex-direction: column;
+  gap: 17.5px;
 }
