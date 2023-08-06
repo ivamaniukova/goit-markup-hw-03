@@ -76,16 +76,6 @@ img {
   list-style: none;
   gap: 40px;
 }
-.footer {
-  color: #f4f4fd;
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-decoration: none;
-}
 .nav-menu {
   display: flex;
   align-items: center;
